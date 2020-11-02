@@ -1,0 +1,87 @@
+﻿/*
+ * Custom CSS for LewisHopkins.co.uk
+ */
+
+/* Header Fonts */
+@font-face {
+	font-family:LemonMilk;
+	font-weight: bold;
+	src: url("../fonts/LemonMilkbold.otf") format("opentype");
+}
+
+section.cta{
+	position:relative;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	background-position:center;
+	background-image:url("../beta/img/2.0/header_purple.png");
+	margin-top:-20px;
+}
+
+/* Call To Action Header Colours */
+section.cta.cta-small { max-height:300px; }
+section.cta.cta-medium { max-height: 750px; }
+section.cta.black { background-image:url("../img/2.0/header_black.png"); }
+section.cta.blue { background-image:url("../img/2.0/header_blue.png"); }
+section.cta.bluebright { background-image:url("../img/2.0/header_blue_bright.png"); }
+section.cta.green { background-image:url("../img/2.0/header_green.png"); }
+section.cta.grimred { background-image:url("../img/2.0/header_grimred.png"); }
+section.cta.orange { background-image:url("../img/2.0/header_orange.png"); }
+section.cta.orangered { background-image:url("../img/2.0/header_orangered.png"); }
+section.cta.pink { background-image:url("../img/2.0/header_pink.png"); }
+section.cta.purple { background-image:url("../img/2.0/header_purple.png"); }
+section.cta.sand { background-image:url("../img/2.0/header_sand.png"); }
+section.cta.sky { background-image:url("../img/2.0/header_sky.png"); }
+section.cta.tan { background-image:url("../img/2.0/header_tan.png"); }
+section.cta.yellow { background-image:url("../img/2.0/header_yellow.png"); }
+
+/* Custom Trendy Navbar Image - Shatter Black*/
+.navbar-bg-shatter-black { background-image:url("../beta/img/2.0/header_navbar.png") !important;}
+
+section.cta .cta-content{
+	position:relative;
+	z-index:1
+}
+
+/* Call To Action - Fonts */
+section.cta .cta-content h2{color:#fff;max-width:1700px;font-size:50px; font-family:LemonMilk}
+section.cta .cta-content h3{color:#fff;max-width:1700px;font-size:20px; font-family:LemonMilk}
+
+@media (min-width:768px){section.cta .cta-content h2{font-size:80px}}
+
+section.cta .overlay{height:100%;width:100%;background-color:rgba(0,0,0,.5);position:absolute;top:0;left:0}
+
+Font-LemonMilk-Bold {
+	font-family: LemonMilk;
+}
+
+
+/* Minor Custom Additions */
+.text-white {color:#FFFFFF !important}
+.text-smallcaps {font-variant:small-caps}
+
+
+.filter-button:active
+{
+    background-color: #202020;
+    color: black;
+    
+    border: 1px solid black;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.hidden
+{
+    display: none;
+}
